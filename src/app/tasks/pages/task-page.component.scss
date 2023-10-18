@@ -1,0 +1,11 @@
+.page--content {
+  min-height: 100vh;
+  background-color: var(--mat-toolbar-container-background-color);
+}
+
+.page--loader {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}

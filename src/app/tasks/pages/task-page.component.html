@@ -1,0 +1,8 @@
+<div class="page--content">
+    <ng-container *ngIf="tasks$ | async as tasks; else loading">
+        <app-task-print (startPrint)="startPrint()" />
+        <app-task-list #taskList [tasks]="tasks"/>
+    </ng-container>
+</div>
+
+<ng-template #loading><mat-spinner class="page--loader"></mat-spinner></ng-template>

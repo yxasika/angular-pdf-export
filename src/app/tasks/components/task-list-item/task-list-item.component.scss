@@ -1,0 +1,8 @@
+.task-list-item--content {
+  transition-duration: 300ms;
+
+  .task-list-item--image {
+    object-fit: cover;
+    background-color: black;
+  }
+}

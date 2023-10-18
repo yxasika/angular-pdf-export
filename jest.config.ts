@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'printing',
+  displayName: 'tasks',
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/printing',
+  coverageDirectory: './coverage/tasks',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
